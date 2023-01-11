@@ -16,3 +16,7 @@ Based on the information given, break this ticket down into 2-5 individual ticke
 You will be graded on the level of detail in each ticket, the clarity of the execution plan within and between tickets, and the intelligibility of your language. You don't need to be a native English speaker, but please proof-read your work.
 
 ## Your Breakdown Here
+1-Provide input field on agent registration and management form to enter custom id for an agent.
+2-Make changes in database for the new id field along with unique constraint.
+3-Make changes in the reports to display custom agent id.
+4-Add filters in reports to get data based on the agent id.
