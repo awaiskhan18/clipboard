@@ -9,3 +9,8 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+1- We can assign the value of TRIVIAL_PARTITION_KEY directly to the variable candidate because TRIVIAL_PARTITION_KEY has no other use.
+
+2- After this we can remove the code which check if the candidate exist
+
+3- There is no need to check typeof candidate because it will always be sting due to crypto
